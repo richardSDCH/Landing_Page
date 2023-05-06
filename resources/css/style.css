@@ -25,14 +25,14 @@ nav {
 
 h2 {
     font-weight: 600;
-    color: #00D0D7;
+    color: #00A6AD;
     font-size: 2rem;
     width: 75%;
 }
 
 h3 {
     font-weight: 600;
-    color: #0048E5;
+    color: #05164D;
     font-size: 1.35rem;
 }
 
@@ -43,6 +43,8 @@ p {
 
 .navli {
     width: 15%;
+    margin-top: 30px;
+    min-height: fit-content;
     display: flex;
     justify-content: center;
 }
@@ -61,21 +63,15 @@ p {
 }
 
 .navli a {
-    color: #0048E5;
+    color: #05164D;
     font-size: 1.15rem;
     font-weight: 500;
     text-decoration: none;
-    padding-top: 30px;
 }
 
-nav a:hover {
+.navli a:hover {
     cursor: pointer;
-    color: #03FDFF;
-}
-
-nav a:active {
-    color: #57FEFF;
-    font-weight: 700;
+    color: #00B8B9;
 }
 
 #nav-logo {
@@ -93,13 +89,15 @@ nav a:active {
     display: flex;
     justify-content: end;
     width: 60%;
+    height: fit-content;
+    margin-right: 2%;
 }
 
 .tagline h1 {
     text-align: left;
     font-weight: 700;
     font-size: 3.5rem;
-    color: black;
+    color: #05164D;
     width: 55%;
     margin-left: 15%;
     margin-bottom: 15%;
@@ -123,7 +121,8 @@ nav a:active {
 }
 
 .functionality {
-    width: 25%;
+    width: 28%;
+    padding-bottom: 3%;
 }
 
 .functionality h3 {
@@ -135,6 +134,14 @@ nav a:active {
 .functionality p {
     margin-top: 5%;
     margin-left: 4%;
+}
+
+#networking {
+    padding-left: 3%;
+}
+
+#tracking {
+    padding-right: 3%;
 }
 
 .desktop {
@@ -177,118 +184,67 @@ nav a:active {
     color: dimgrey;
 }
 
-#about-us {
-    background-color: #068184;
+#contact-us {
+    background-color: #F3F4F8;
     height: 550px;
 }
 
-#background {
-    width: 45%;
+#description {
+    width: 50%;
 }
 
-#background p {
-    width: 75%;
-    color: white;
+#about-us p {
+    width: 80%;
+    color: black;
     margin: auto;
     font-size: 1.15rem;
 }
 
-#partners-logos {
+#contact-form {
     width: 50%;
     height: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#logos {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    display: flex;
 }
 
 .cont-logo {
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 .partner-logo {
     object-fit: cover;
     margin: auto;
-}
-
-#r3 {
-    grid-area: 1 / 1 / span 1 / span 2;
-}
-
-#cambra {
-    grid-area: 1 / 3 / span 1 / span 4;
-}
-
-#f10 {
-    grid-area: 2 / 1 / span 1 / span 3;
-}
-
-#impact-factory {
-    grid-area: 2 / 4 / span 1 / span 3;
-}
-
-#dhlh {
-    grid-area: 3 / 1 / span 1 / span 3;
-}
-
-#de-hub {
-    grid-area: 3 / 4 / span 1 / span 3;
-}
-
-#logo-r3 {
-    max-height: 60%;
-    max-width: 60%;
-}
-
-#logo-cambra {
-    max-height: 80%;
-    max-width: 80%;
-}
-
-#logo-f10 {
-    max-height: 80%;
-    max-width: 80%;
-}
-
-#logo-impact-factory {
-    max-height: 75%;
-    max-width: 75%;
-}
-
-#logo-dhlh {
-    max-height: 75%;
-    max-width: 75%;
-}
-
-#logo-de-hub {
-    max-height: 75%;
-    max-width: 75%;
+    width: 65%;
 }
 
 footer {
-    height: 150px;
+    height: 180px;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
-    background-color: #1F3864;
+    background-color: #05164D;
 }
 
-footer h4 {
-    font-size: 1.25rem;
-    font-weight: 500;
-    color: whitesmoke;
+#impressum {
+    width: 50%;
+    margin-left: 5%;
 }
 
-footer a {
-    font-size: 1.25rem;
+#legal-name {
     font-weight: 500;
-    color: #74FEFF;
-    text-decoration: none;
+    line-height: 1.5;
 }
 
 address {
-    font-size: 1.15rem;
-    font-weight: 500;
+    font-size: 0.85rem;
+    font-weight:300;
     font-style: normal;
-    color: whitesmoke;
+    color: #fff;
 }
