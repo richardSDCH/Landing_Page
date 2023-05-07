@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Tradeledge | TradeTech for MSMEs</title>
+    <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
 </head>
 <body>
     <header>
@@ -139,12 +140,16 @@
                     <a class="cont-logo" id="de-hub" href="https://www.de-hub.de/en/the-hubs/hamburg/"><img class="partner-logo" id="logo-de-hub" src="./resources/images/De Hub.png" alt="Logo of De Hub Initiative"></a>
                 </div>
             </div>
-            <div id="contact-form">
-                
-            </div>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <input type="text" name="subject" id="subject" placeholder="Your company's name" required>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </main>
-    <footer id="contact">
+    <footer>
         <div id="impressum">
             <address><span id="legal-name">SDCH Handelslösungen UG</span><br>
                 c/o Digital Hub Logistics Hamburg<br>

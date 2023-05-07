@@ -186,7 +186,7 @@ p {
 
 #contact-us {
     background-color: #F3F4F8;
-    height: 550px;
+    height: 600px;
 }
 
 #description {
@@ -222,6 +222,79 @@ p {
     object-fit: cover;
     margin: auto;
     width: 65%;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 500px;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: thin;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+form input:hover {
+    border-color: black;
+}
+
+form input:focus {
+    border-color: #fff;
+}
+
+form textarea {
+    width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: thin;
+    font-size: 1rem;
+    font-family: "Work Sans";
+    color: black;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+form textarea:hover {
+    border-color: black;
+}
+
+form textarea:focus {
+    border-color: #fff;
+}
+
+form button {
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    background-color: rgba(0, 208, 215, 0.4);
+    border-style: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgba(0, 208, 215, 0.7);
+}
+
+form button:active {
+    background-color: rgba(0, 208, 215);
 }
 
 footer {
