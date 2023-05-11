@@ -285,7 +285,8 @@ form textarea:hover {
 }
 
 form textarea:focus {
-    border-style: none;
+    border-style: solid;
+    border-color: #fff;
     outline-style: solid;
     outline-width: medium;
     outline-color: #00D0D7;
