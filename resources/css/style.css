@@ -14,7 +14,15 @@ body {
 header {
     width: 100%;
     height: 750px;
-    background-image: url("../images/pexels-gradienta-7130469.jpg");
+    background: hsla(182, 100%, 42%, 1);
+
+    background: linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    background: -moz-linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00D0D7", endColorstr="#05164D", GradientType=1 );
     background-size: cover;
 }
 
@@ -251,7 +259,10 @@ form input:hover {
 }
 
 form input:focus {
-    border-color: #fff;
+    border-style: none;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: #00D0D7;
 }
 
 form textarea {
@@ -274,7 +285,10 @@ form textarea:hover {
 }
 
 form textarea:focus {
-    border-color: #fff;
+    border-style: none;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: #00D0D7;
 }
 
 button {
