@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="./resources/js/langDropdown.js"></script>
     <title>Tradeledge | TradeTech for MSMEs</title>
     <link 
         rel="icon" 
@@ -32,6 +33,22 @@
                 <div class="navli"><a href="#for-msmes">For MSMEs</a></div>
                 <div class="navli"><a href="#fully-digital">Fully Digital</a></div>
                 <div class="navli" id="contactUs"><a href="#contact-us">Contact Us</a></div>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">
+                      <img class="lang-icon" src="./resources/images/EN.png" alt="English">
+                      <h4>EN</h4>
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <div class="lang-option">
+                        <img class="lang-icon" src="./resources/images/DE.png" alt="Deutsch">
+                        <a href="#">DE</a>
+                      </div>
+                      <div class="lang-option">
+                        <img class="lang-icon" src="./resources/images/ES.png" alt="Español">
+                        <a href="#">ES</a>
+                      </div>
+                    </div>
+                </div>
             </div>            
         </nav>
         <div class="container" id="main">
@@ -131,7 +148,7 @@
                     <h3>Integrate into digital global value chains</h3>
                     <p>In a post-COVID world, global value chains (GVCs) have embraced digitalization to levels no one expected. 
                         Our tool will help your firm to keep pace with and integrate into these GVCs, helping it to grow 
-                        in both profitability and international presence</p>
+                        in both profitability and international presence.</p>
                 </div>
                 <div class="benefit-action">
                     <h3>Control your trade data</h3>
