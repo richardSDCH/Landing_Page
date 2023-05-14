@@ -41,7 +41,7 @@ h2 {
 h3 {
     font-weight: 600;
     color: #05164D;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
 }
 
 p {
@@ -50,16 +50,14 @@ p {
 }
 
 .navli {
-    width: 15%;
+    width: fit-content;
     min-height: fit-content;
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
 }
-
-#trade {
-    width: 12%;
-} 
 
 #platform {
     justify-content: left;
@@ -96,7 +94,7 @@ p {
 #nav-links {
     display: flex;
     justify-content: end;
-    width: 60%;
+    width: 65%;
     height: fit-content;
     margin-right: 2%;
 }
@@ -128,11 +126,11 @@ p {
 }
 
 #our-platform h3 {
-    font-size: 2.25rem;
+    font-size: 2.05rem;
     font-weight: 500;
     line-height: 3rem;
     text-align: center;
-    width: 65%;
+    width: 70%;
     margin: auto;
     padding-top: 17%;
     padding-bottom: 12%;
