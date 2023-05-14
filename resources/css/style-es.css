@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 750px;
+    background: hsla(182, 100%, 42%, 1);
+
+    background: linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    background: -moz-linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(182, 100%, 42%, 1) 0%, hsla(226, 88%, 16%, 1) 85%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00D0D7", endColorstr="#05164D", GradientType=1 );
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 600;
+    color:#00A6AD;
+    font-size: 2rem;
+    width: 75%;
+}
+
+h3 {
+    font-weight: 600;
+    color: #05164D;
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1.05rem;
+    color: #595959;
+}
+
+.navli {
+    width: fit-content;
+    min-height: fit-content;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+}
+
+#platform {
+    justify-content: left;
+}
+
+#about {
+    width: 12%;
+    justify-content: end;
+}
+
+.navli a {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navli a:hover {
+    cursor: pointer;
+    color: #74FEFF;
+}
+
+#nav-logo {
+    width: 20%;
+}
+
+#nav-logo img {
+    max-width: 70%;
+    max-height: 70%;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: end;
+    width: 65%;
+    height: fit-content;
+    margin-right: 2%;
+}
+
+.tagline h1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #fff;
+    width: 65%;
+    margin-left: 12%;
+    margin-bottom: 15%;
+}
+
+.white {
+    width: 35%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+#our-platform {
+    background-color: #F3F4F8;
+}
+
+#our-platform h3 {
+    font-size: 2.05rem;
+    font-weight: 500;
+    line-height: 3rem;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 17%;
+    padding-bottom: 12%;
+}
+
+#our-platform a {
+    color:#00A6AD;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#our-platform a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#our-platform a:active {
+    color:#00D0D7;
+}
+
+#functionalities {
+    justify-content: space-around;
+    background-color: #F3F4F8;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.functionality {
+    width: 28%;
+    padding-bottom: 3%;
+}
+
+.functionality h3 {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.functionality p {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+#networking {
+    padding-left: 3%;
+}
+
+#tracking {
+    padding-right: 3%;
+}
+
+.desktop {
+    max-width: 100%;
+}
+
+.picture {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: end;
+}
+
+.benefit-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.benefits {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit-action {
+    width: 75%;
+    height: fit-content;
+    margin-bottom: 3%;
+}
+
+.benefits h3 {
+    line-height: 0%;
+}
+
+.benefits p {
+    color: dimgrey;
+}
+
+#contact-us {
+    background-color: #F3F4F8;
+    height: 600px;
+}
+
+#description {
+    width: 50%;
+}
+
+#about-us p {
+    width: 80%;
+    color: black;
+    margin: auto;
+    font-size: 1.15rem;
+}
+
+#contact-form {
+    width: 50%;
+    height: 80%;
+}
+
+#logos {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+    display: flex;
+}
+
+.cont-logo {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.partner-logo {
+    object-fit: cover;
+    margin: auto;
+    width: 65%;
+}
+
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 500px;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: thin;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: black;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+form input:hover {
+    border-color: black;
+}
+
+form input:focus {
+    border-style: none;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: #00D0D7;
+}
+
+form textarea {
+    width: 500px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: thin;
+    font-size: 1rem;
+    font-family: "Work Sans";
+    color: black;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+form textarea:hover {
+    border-color: black;
+}
+
+form textarea:focus {
+    border-style: solid;
+    border-color: #fff;
+    outline-style: solid;
+    outline-width: medium;
+    outline-color: #00D0D7;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    background-color: rgba(0, 208, 215, 0.4);
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 208, 215, 0.7);
+}
+
+button:active {
+    background-color: rgba(0, 208, 215);
+}
+
+#success-message {
+    text-align: center;
+}
+
+#success-message p {
+    width: 55%;
+    color: black;
+    margin: auto;
+    font-size: 1.15rem;
+}
+
+#success-message button {
+    margin-top: 5%;
+    width: 120px;
+}
+
+footer {
+    height: 180px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #05164D;
+}
+
+#impressum {
+    width: 50%;
+    margin-left: 5%;
+}
+
+#legal-name {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+address {
+    font-size: 0.85rem;
+    font-weight:300;
+    font-style: normal;
+    color: #fff;
+}
+
+/* Language Dropdown */
+
+/* Dropdown Button */
+
+.dropbtn {
+    background: none;
+    display: flex;
+    height: max-content;
+    width: 68px;
+    border-radius: 0;
+    cursor: pointer;
+  }
+
+  .lang-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .dropbtn h4 {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0px 0px 0px 10px;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F3F4F8;
+    min-width: 68px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content .lang-option {
+    display: flex;
+    height: auto;
+  }
+
+  .dropdown-content .lang-option .lang-icon {
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .dropdown-content a {
+    color:#05164D;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-left: 10px;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content .lang-option:hover {background-color: #d9d9d9;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
