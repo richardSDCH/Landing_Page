@@ -389,23 +389,26 @@ address {
 
 .dropbtn {
     background: none;
-    display: flex;
-    height: max-content;
-    width: 68px;
+    height: 30px;
+    width: 48px;
     border-radius: 0;
     cursor: pointer;
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 500;
+  }
+
+  #lang-flag {
+    width: 20px;
+    height: 20px;
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 0%;
   }
 
   .lang-icon {
     width: 20px;
     height: 20px;
-  }
-
-  .dropbtn h4 {
-    color: white;
-    font-size: 1.15rem;
-    font-weight: 500;
-    margin: 0px 0px 0px 10px;
   }
   
   /* Dropdown button on hover & focus */
@@ -418,7 +421,7 @@ address {
     position: relative;
     display: inline-block;
     margin-top: 21px;
-    margin-left: 15px;
+    margin-left: 0%;
     margin-right: 10px;
   }
   
@@ -426,6 +429,8 @@ address {
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 35px;
+    right: 5px;
     background-color: #F3F4F8;
     min-width: 68px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
