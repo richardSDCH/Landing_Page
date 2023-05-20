@@ -44,6 +44,12 @@ h3 {
     font-size: 1.25rem;
 }
 
+h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: black;
+}
+
 p {
     font-size: 1.05rem;
     color: #595959;
@@ -362,13 +368,23 @@ footer {
     height: 180px;
     display: flex;
     justify-content: left;
-    align-items: center;
     background-color: #05164D;
 }
 
-#impressum {
-    width: 50%;
+footer h4 {
+    color: white;
+    margin-top: 0%;
+}
+
+#name-address {
+    width: 25%;
     margin-left: 5%;
+    margin-top: 2%;
+}
+
+.footer-link {
+    width: 15%;
+    margin-top: 2%;
 }
 
 #legal-name {
