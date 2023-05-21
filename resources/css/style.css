@@ -494,19 +494,19 @@ address {
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
-  /* Impressum */
-  .impressum {
+  /* Legal Docs */
+  .legal-doc {
     background-color:#F3F4F8;
   }
 
-  .impressum h2 {
+  .legal-doc h2 {
     color: #05164D;
     font-weight: 500;
     padding-left: 15%;
     margin-top: 5%;
   }
 
-  .impressum p {
+  .legal-doc p {
     color: black;
     font-size: 0.8rem;
   }
@@ -518,5 +518,13 @@ address {
 
   .imp-text-col {
     width: 50%;
+  }
+
+  #datenschutz {
+    display: block;
+  }
+
+  .highlight-legal-doc {
+    font-weight: 500;
   }
 
