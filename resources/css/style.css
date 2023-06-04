@@ -44,9 +44,25 @@ h3 {
     font-size: 1.35rem;
 }
 
+h4 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: black;
+}
+
 p {
     font-size: 1.05rem;
     color: #595959;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #0332FF;
+}
+
+a:visited {
+    color: darkorchid;
 }
 
 .navli {
@@ -364,13 +380,23 @@ footer {
     height: 180px;
     display: flex;
     justify-content: left;
-    align-items: center;
     background-color: #05164D;
 }
 
-#impressum {
-    width: 50%;
+footer h4 {
+    color: white;
+    margin-top: 0%;
+}
+
+#name-address {
+    width: 25%;
     margin-left: 5%;
+    margin-top: 2%;
+}
+
+.footer-link {
+    width: 15%;
+    margin-top: 2%;
 }
 
 #legal-name {
@@ -467,3 +493,38 @@ address {
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+  /* Legal Docs */
+  .legal-doc {
+    background-color:#F3F4F8;
+  }
+
+  .legal-doc h2 {
+    color: #05164D;
+    font-weight: 500;
+    padding-left: 15%;
+    margin-top: 5%;
+  }
+
+  .legal-doc p {
+    color: black;
+    font-size: 0.8rem;
+  }
+
+  .imp-text {
+    display: flex;
+    padding-left: 15%;
+  }
+
+  .imp-text-col {
+    width: 50%;
+  }
+
+  #datenschutz {
+    display: block;
+  }
+
+  .highlight-legal-doc {
+    font-weight: 500;
+  }
+
