@@ -144,14 +144,14 @@ a:visited {
 }
 
 #our-platform h3 {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 3rem;
+    line-height: 2.5rem;
     text-align: center;
-    width: 65%;
+    width: 75%;
     margin: auto;
-    padding-top: 17%;
-    padding-bottom: 12%;
+    padding-top: 5%;
+    /* padding-bottom: 12%; */
 }
 
 #our-platform a {
